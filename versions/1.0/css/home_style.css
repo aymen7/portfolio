@@ -1,0 +1,161 @@
+body{
+    background-position: center;
+    color: white;
+}
+/*-----------------------------------------------header-------------------------------------------------------------*/
+header{
+    margin-bottom: 0px;
+
+}
+#info-row{
+    color: #0f0f0f;
+    margin-top: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+#nav-row{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    /*background-color: rgba(1,87,155,1);*/
+    background-color: #222831 ;
+}
+
+#banner-row{
+    background-image: url(../images/oskar-yildiz-110060.jpg);
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.navbar-default{
+  background-color: rgba(18,0,94,0);
+  border-color: rgba(250,250,250,0);
+    margin-bottom: 0px;
+}
+.navbar-default .navbar-header >a {
+    color: #ffffff;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+.main-nav-list{
+    font-family: 'Open Sans', sans-serif;
+    font-size: x-large;
+    margin-left: 15px;
+
+}
+
+.navbar-default .navbar-nav >li >a,.navbar-default .navbar-header >a {
+    color: rgba(255,255,255,0.85);
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.navbar-default .navbar-nav >li >a:hover,.navbar-default .navbar-header >a:hover {
+    color: rgba(255,255,255,1);
+
+}
+#banner-header{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#banner-header h1,#banner-header h2{
+
+    font-family: 'Signika', sans-serif;
+    font-weight: bold;
+    color: rgba(255,255,255,1);
+}
+#banner-header h1{
+    letter-spacing: 0.5em;
+}
+#banner-header h2{
+    letter-spacing: 0.1em;
+}
+.typewrite{
+    color: rgba(32,194,14,1)
+}
+.typewrite span{
+    color: rgba(32,194,14,1)
+}
+#banner-btn-div{
+    margin-top: 165px;
+}
+#banner-btn-div .btn-default{
+    border-color: white;
+    color: white;
+    background-color: rgba(245,0,87,0.8) !important;
+}
+#banner-btn-div .btn-default:hover{
+    background-color: rgba(245,0,87,1) !important;
+}
+#banner-btn-div .btn-lg{
+    background-color: rgba(251,654,5,0);
+    margin-left: 10px;
+}
+/*-------- typewriting effect------------------*/
+span {
+    border-right: .05em solid;
+    animation: caret 1s steps(1) infinite;
+}
+
+@keyframes caret {
+    50% {
+        border-color: transparent;
+    }
+}
+
+
+/*--------------------------------carousel---------------------------------*/
+.carousel-inner img {
+    margin: auto;
+}
+/*--------------------------------About------------------*/
+#about-div{
+    /*background-color: rgba(44,0,58,1);*/
+    margin-top: 0px;
+    color: #222831;
+    padding-bottom: 20px;
+
+}
+#about-div-title h1{
+    font-family: 'Signika', sans-serif;
+    font-size: 40px;
+    letter-spacing: 0.5em;
+    text-align: center;
+    color: rgba(245,0,87,1);
+}
+#about-content-div{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#text-div h1{
+    letter-spacing: 0.3em;
+}
+#text-div p{
+    font-family: 'Signika', sans-serif;
+    font-weight: normal;
+    font-size: large;
+    opacity: 0.7;
+}
+
+#photo-div{
+    margin-left: 80px;
+    width: 640px;
+    height: 426px;
+    background-image: url(../images/computer-2265803_640.jpg);
+}
+#photo-div h3{
+    text-align: center;
+    margin-top: 360px;
+    font-weight: bold;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    background: rgba(255,255,255,0.7);
+}
+/*------------------services-----------*/
+#services-div{
+    background-color: #517490	;
+    height: 500px;
+}
+#services-div-title h1{
+    font-family: 'Signika', sans-serif;
+    font-size: 40px;
+    letter-spacing: 0.3em;
+    text-align: center;
+    color:  rgba(255,255,255,1);
+}
