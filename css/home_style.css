@@ -1,5 +1,6 @@
 body{
-    background-position: center;
+
+    background-image: url(../images/rsz_jan-henckens-311341.jpg);
     color: white;
 
 }
@@ -22,7 +23,7 @@ header{
 }
 
 #banner-row{
-    background-image: url(../images/rsz_oskar-yildiz-110060.jpg);
+    /*background-image: url(../images/rsz_oskar-yildiz-110060.jpg);*/
     margin-top: 0px;
     margin-bottom: 0px;
 }
@@ -83,7 +84,7 @@ header{
     color: rgba(32,194,14,1)
 }
 #banner-btn-div{
-    margin-top: 165px;
+    margin-top: 220px;
 }
 #banner-btn-div .btn-default{
     border-color: white;
@@ -116,12 +117,11 @@ span {
 }
 #main-div{
     background-image: url(../images/rsz_jan-henckens-311341.jpg);
-    position: relative;
 }
 
 /*--------------------------------About------------------*/
 #about-div{
-    background-color: rgba(255,255,255,0);
+    background-color: rgba(121,85,72,0.3);
     margin-top: 0px;
     color: rgba(255,255,255,1);
     padding-bottom: 20px;

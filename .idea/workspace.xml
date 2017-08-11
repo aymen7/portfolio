@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf3c6b2d-fc31-4c91-a756-8a3a2b51351c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/home_style.css" afterPath="$PROJECT_DIR$/css/home_style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home.php" afterPath="$PROJECT_DIR$/home.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js_files/js_home.js" afterPath="$PROJECT_DIR$/js_files/js_home.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,14 +18,14 @@
       <file leaf-file-name="home.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+            <state relative-caret-position="142">
+              <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="js_home.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="js_home.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js_files/js_home.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="491">
@@ -41,13 +39,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home_style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="home_style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/home_style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="30" column="52" lean-forward="true" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="52" />
+            <state relative-caret-position="202">
+              <caret line="86" column="19" lean-forward="false" selection-start-line="86" selection-start-column="19" selection-end-line="86" selection-end-column="19" />
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rsz_jan-henckens-311341.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/images/rsz_jan-henckens-311341.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -85,9 +90,9 @@
         <option value="$PROJECT_DIR$/php/header.php" />
         <option value="$PROJECT_DIR$/php/about.php" />
         <option value="$PROJECT_DIR$/php/services.php" />
+        <option value="$PROJECT_DIR$/js_files/js_home.js" />
         <option value="$PROJECT_DIR$/home.php" />
         <option value="$PROJECT_DIR$/css/home_style.css" />
-        <option value="$PROJECT_DIR$/js_files/js_home.js" />
       </list>
     </option>
   </component>
@@ -143,6 +148,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="php" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portfolio" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -268,12 +287,12 @@
       <workItem from="1502222971156" duration="56000" />
       <workItem from="1502223037916" duration="6585000" />
       <workItem from="1502444465224" duration="11069000" />
-      <workItem from="1502480834197" duration="5763000" />
+      <workItem from="1502480834197" duration="6825000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83033000" />
+    <option name="totallyTimeSpent" value="84095000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
@@ -309,18 +328,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js_files/js_home.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-            <element signature="e#109#661#0" expanded="false" />
-            <element signature="e#778#1028#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/home_style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -710,22 +717,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/home_style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="30" column="52" lean-forward="true" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js_files/js_home.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="491">
@@ -735,6 +726,27 @@
             <element signature="e#109#661#0" expanded="false" />
             <element signature="e#778#1028#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/rsz_jan-henckens-311341.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/home_style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="86" column="19" lean-forward="false" selection-start-line="86" selection-start-column="19" selection-end-line="86" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
