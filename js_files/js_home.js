@@ -80,10 +80,42 @@ $(document).ready(function () {
     }, 1000 );
 
 
+/*---------------------------return to the top -------------------------------*/
+// ===== Scroll to Top ====
+    $(window).scroll(function() {
+        if ($(this).scrollTop() >= 281) {        // If page is scrolled more than 50px
+            $('#return-to-top').fadeIn(200);    // Fade in the arrow
+        } else {
+            $('#return-to-top').fadeOut(200);   // Else fade out the arrow
+        }
+    });
+    $('#return-to-top').click(function() {      // When arrow is clicked
+        $('body,html').animate(   {scrollTop : 0}, 500   );// Scroll to top of body
+    });
 
 
+/*--------------navbar animation after the scroll--------*/
+/*
+$(window).scroll(function () {
+    var scrollPosition=$(this).scrollTop();
+    if(scrollPosition >=281){
+        $(".main-nav-list").animate({
+            fontSize:12
+        },10);
+        $(".navbar-default").animate({
+            height:40
 
-
+        },10);
+    }
+    else {
+        $(".main-nav-list").animate({
+            fontSize:24
+        },10);
+        $(".navbar-default").animate({
+            height:56
+        },10);
+    }
+});  */
 
 
 

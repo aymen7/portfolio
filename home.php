@@ -42,6 +42,7 @@
     </head>
     <!----------------------------- the body tag--------------------------------------->
     <body>
+
          <!-- include the header php-->
          <?php        include ("php/header.php");    ?>
 
@@ -51,6 +52,10 @@
 
          <?php        include ("php/services.php");       ?>
          </div><!-- end of the main div-->
+         <!-- Return to Top -->
+             <a href="#" id="return-to-top"><i class="fa fa-arrow-up fa-5x" aria-hidden="true"></i>
+             </a>
+
     <!-- js scripts ------------------------------>
 
     <!-- jquery script-->
