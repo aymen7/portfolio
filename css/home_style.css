@@ -160,7 +160,7 @@ span {
 /*------------------services-----------*/
 #services-div{
     background-color: #517490	;
-    height: 500px;
+    height: 700px;
 }
 #services-div-title h1{
     font-family: 'Signika', sans-serif;
@@ -168,4 +168,16 @@ span {
     letter-spacing: 0.3em;
     text-align: center;
     color:  rgba(255,255,255,1);
+}
+#pic1{
+    height: 219.83px;
+    background-image: url(../images/computer-2265803_640.jpg);
+}
+#pic2{
+    height: 218.83px;
+    background-image: url(../images/computer-2265803_640.jpg);
+}
+#pic3{
+    height: 219.83px;
+    background-image: url(../images/computer-2265803_640.jpg);
 }
