@@ -45,11 +45,12 @@
          <!-- include the header php-->
          <?php        include ("php/header.php");    ?>
 
+         <div id="main-div" class="container-fluid row">
          <!-- include the about php -->
          <?php        include("php/about.php");    ?>
 
          <?php        include ("php/services.php");       ?>
-
+         </div><!-- end of the main div-->
     <!-- js scripts ------------------------------>
 
     <!-- jquery script-->

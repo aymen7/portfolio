@@ -12,7 +12,7 @@
 
             </div><!--end of the text div -->
             <div id="photo-div" class="col-md-5 col-lg-5 col-lg-offset-1 col-md-offset-1 container-fluid">
-                <h3 class="row">Hi !!! And Welcome to my Portfolio :)</h3>
+
 
             </div><!--end of the photo div -->
 

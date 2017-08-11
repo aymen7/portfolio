@@ -21,13 +21,13 @@ header{
 }
 
 #banner-row{
-    background-image: url(../images/oskar-yildiz-110060.jpg);
+    background-image: url(../images/rsz_oskar-yildiz-110060.jpg);
     margin-top: 0px;
     margin-bottom: 0px;
 }
 .navbar-default{
-  background-color: rgba(18,0,94,0);
-    background-color: #222831 !important;
+  /*background-color: rgba(18,0,94,0);*/
+    background-color: rgba(33,150,243,1) !important;
   border-color: rgba(250,250,250,0);
     margin-bottom: 0px;
 }
@@ -114,11 +114,16 @@ span {
 .carousel-inner img {
     margin: auto;
 }
+#main-div{
+    background-image: url(../images/rsz_jan-henckens-311341.jpg);
+    position: relative;
+}
+
 /*--------------------------------About------------------*/
 #about-div{
-    /*background-color: rgba(44,0,58,1);*/
+    background-color: rgba(255,255,255,0);
     margin-top: 0px;
-    color: #222831;
+    color: rgba(255,255,255,1);
     padding-bottom: 20px;
 
 }
@@ -149,17 +154,10 @@ span {
     height: 426px;
     background-image: url(../images/computer-2265803_640.jpg);
 }
-#photo-div h3{
-    text-align: center;
-    margin-top: 360px;
-    font-weight: bold;
-    padding-top: 22px;
-    padding-bottom: 22px;
-    background: rgba(255,255,255,0.7);
-}
+
 /*------------------services-----------*/
 #services-div{
-    background-color: #517490	;
+    background-color: rgba(81,116,144,0.4)	;
     height: 700px;
 }
 #services-div-title h1{
