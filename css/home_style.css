@@ -4,7 +4,14 @@ body{
     color: white;
 
 }
-
+.col-md-3-5 {
+    width: 29.16667%;
+    margin-left: 20px;
+}
+.col-lg-3-5{
+    width: 29.16667%;
+    margin-left: 20px;
+}
 /*-----------------------------------------------header-------------------------------------------------------------*/
 header{
     margin-bottom: 0px;
@@ -152,32 +159,77 @@ span {
     margin-left: 80px;
     width: 640px;
     height: 426px;
-    background-image: url(../images/computer-2265803_640.jpg);
+    background-image: url(../images/rsz_11.jpg);
+    border-radius: 90px;
 }
 
 /*------------------services-----------*/
 #services-div{
     background-color: rgba(81,116,144,0.4)	;
-    height: 700px;
 }
+#fix-position{
+    float: none;
+    margin-left: 70px;
+}
+
 #services-div-title h1{
     font-family: 'Signika', sans-serif;
     font-size: 40px;
     letter-spacing: 0.3em;
     text-align: center;
     color:  rgba(255,255,255,1);
+    margin-bottom: 80px;
 }
 #pic1{
-    height: 219.83px;
-    background-image: url(../images/computer-2265803_640.jpg);
+    height: 350px;
+    background-image: url(../images/rsz_bulb-2136224_1920.jpg);
+}
+#pic1-background{
+    width: 364.28px;
+    height: 289px;
+    background-color: rgba(255,152,0,0.25);
+}
+#pic1 h3{
+    background-color: rgba(255,152,0,1);
+    color: rgba(255,255,255,1);
+    margin-top: 0px;
+    padding-bottom: 17px;
+    padding-top: 17px;
+    text-align: center;
 }
 #pic2{
-    height: 218.83px;
-    background-image: url(../images/computer-2265803_640.jpg);
+    height: 350px;
+    background-image: url(../images/rsz_office-583839_1920.jpg);
+}
+#pic2-background{
+    width: 364.28px;
+    height: 289px;
+    background-color: rgba(186,104,200,0.25);
+}
+#pic2 h3{
+    background-color: rgba(186,104,200,1);;
+    color: rgba(255,255,255,1);
+    margin-top: 0px;
+    padding-bottom: 18px;
+    padding-top: 17px;
+    text-align: center;
 }
 #pic3{
-    height: 219.83px;
-    background-image: url(../images/computer-2265803_640.jpg);
+    height: 350px;
+    background-image: url(../images/rsz_jason-blackeye-198848.jpg);
+}
+#pic3-background{
+    width: 364.28px;
+    height: 289px;
+    background-color: rgba(0,150,136,0.25);
+}
+#pic3 h3{
+    background-color: rgba(0,150,136,1);;
+    color: rgba(255,255,255,1);
+    margin-top: 0px;
+    padding-bottom: 17px;
+    padding-top: 17px;
+    text-align: center;
 }
 /*-----------------------------------------------return to top icon-------------------------------------------------*/
 #return-to-top {

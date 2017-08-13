@@ -117,7 +117,42 @@ $(window).scroll(function () {
     }
 });  */
 
+/*removing the background from the services pics when hover*/
+$(".pics").hover(function () {
+    $(this).children("div:nth-child(1)").css("background-color","rgba(255,255,255,0)");
+});
+$(".pics").mouseleave(function () {
+    console.log("oops");
+    var id=$(this).attr("id");
+    if (id=="pic1"){
+        $(this).children("div:nth-child(1)").css("background-color","rgba(255,152,0,0.25)");
+    }
+    else if(id=="pic2") {
+        $(this).children("div:nth-child(1)").css("background-color","rgba(186,104,200,0.25)");
 
+    }
+    else if(id=="pic3") {
+        $(this).children("div:nth-child(1)").css("background-color","rgba(0,150,136,0.25)");
+
+    }
+});
+
+/*----------------show the services pics---------*/
+$(window).scroll(function () {
+   var scrollPosition=$(this).scrollTop();
+   var option={percent:50};
+   if(scrollPosition<290){
+       $("#fix-position").fadeOut(0);
+   }
+
+   if(scrollPosition >=290){
+       console.log("scroll");
+       $("#fix-position").fadeIn(1000);
+
+   }
+
+
+});
 
 
 });//end of the ready function
