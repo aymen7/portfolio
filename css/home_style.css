@@ -17,11 +17,6 @@ header{
     margin-bottom: 0px;
 
 }
-#info-row{
-    color: #0f0f0f;
-    margin-top: 0px;
-    font-family: 'Roboto', sans-serif;
-}
 #nav-row{
     margin-top: 0px;
     margin-bottom: 0px;
@@ -69,7 +64,7 @@ header{
     padding-top: 50px;
 }
 #banner-header{
-    margin-top: 50px;
+    margin-top: 150px;
     margin-bottom: 50px;
 }
 #banner-header h1,#banner-header h2{
@@ -79,34 +74,139 @@ header{
     color: rgba(255,255,255,1);
 }
 #banner-header h1{
+    font-size: 40px;
     letter-spacing: 0.5em;
 }
 #banner-header h2{
     letter-spacing: 0.1em;
 }
 .typewrite{
-    color: rgba(32,194,14,1)
+    color: rgba(255,255,255,0.4);
 }
 .typewrite span{
-    color: rgba(32,194,14,1)
+    color:rgba(255,255,250,0.4);
 }
 #banner-btn-div{
-    margin-top: 220px;
+    margin-top: 330px;
 }
 #banner-btn-div .btn-default{
-    border-color: white;
+    border-width: thin;
+    border-color: rgba(255,255,255,1);
     color: white;
-    background-color: rgba(245,0,87,0.8) !important;
+    background-color: rgba(245,0,87,0) !important;
 }
 #banner-btn-div .btn-default:hover{
-    background-color: rgba(245,0,87,1) !important;
+    background-color: rgba(81,1,144,1) !important;
+    color: rgba(255,255,255,1);
+    border-color: rgba(255,255,255,1);
 }
 #banner-btn-div .btn-lg{
     background-color: rgba(251,654,5,0);
     margin-left: 10px;
 }
+#info-row{
+    margin: 120px 0px 10px 500px;
+    padding-bottom: 100px;
+}
+#info-row a{
+    border-width: thin;
+    border-radius: 100%;
+    margin-left: 10px;
+    border-color: rgba(255,255,255,1);
+    color: white;
+    background-color: rgba(245,0,87,0) !important;
+}
+#info-row a:hover{
+    /*background-color: rgba(81,1,144,1) !important;*/
+    color: rgba(255,255,255,1);
+    border-color: rgba(255,255,255,1);
+    text-decoration: none;
+}
+#info-row .fa-facebook:hover {
+    color: #3b5998;
+}
+#info-row .fa-linkedin:hover{
+    color:#1DA1F2;
+}
+#info-row .fa-instagram:hover{
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, #8a3ab9 , #4c68d7, #cd486b,#fbad50,#fccc63,#bc2a8d,#e95950); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #8a3ab9 , #4c68d7, #cd486b,#fbad50,#fccc63,#bc2a8d,#e95950); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right,#8a3ab9 , #4c68d7, #cd486b,#fbad50,#fccc63,#bc2a8d,#e95950); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right,#8a3ab9 , #4c68d7, #cd486b,#fbad50,#fccc63,#bc2a8d,#e95950); /* Standard syntax */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#info-row .fa-github:hover{
+    color:rgba(81,1,144,1);
+    font-weight: bold;
+}
+button:focus,button:active {
+    outline: none !important;
+}
+/*------------------------------------scroll down -------------*/
+#section07 div {
+    position: absolute;
+    top: 570px;
+    margin-left: 150px;
+   padding-top: 80px;
+}
+#section07 div span {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 24px;
+    height: 24px;
+    margin-left: -12px;
+    border-left: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-animation: sdb07 2s infinite;
+    animation: sdb07 2s infinite;
+    opacity: 0;
+    box-sizing: border-box;
+}
+#section07 div span:nth-of-type(1) {
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+}
+#section07 div span:nth-of-type(2) {
+    top: 16px;
+    -webkit-animation-delay: .15s;
+    animation-delay: .15s;
+}
+#section07 div span:nth-of-type(3) {
+    top: 32px;
+    -webkit-animation-delay: .3s;
+    animation-delay: .3s;
+}
+@-webkit-keyframes sdb07 {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+@keyframes sdb07 {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+
 /*-------- typewriting effect------------------*/
-span {
+.typewrite span {
     border-right: .05em solid;
     animation: caret 1s steps(1) infinite;
 }
@@ -281,7 +381,8 @@ span {
 }
 /*------------------skills------------*/
 #skills-div{
-    background-color: rgba(81,1,144,0.4)	;
+    background-color: rgba(81,1,144,0.4);
+
 }
 
 #skills-div-title h1{
@@ -306,6 +407,11 @@ span {
     bottom: 85px;
     left:-140px ;
     font-size: 32px;
+   opacity: 0.9;
+}
+.cirle-legend{
+    font-family: 'Signika', sans-serif;
+    font-size: 24px;
 }
 #last-legend{
     margin-left: 80px;

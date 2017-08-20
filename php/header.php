@@ -1,7 +1,4 @@
 <header class="container-fluid">
-    <div class="row" id="info-row">
-
-    </div><!-- end of the info row-->
 
     <div class="row" id="nav-row">
 
@@ -68,13 +65,33 @@
             </h1>
         </div>
 
-        <div class="col-lg-4 col-md-4 " id="banner-btn-div">
+        <div class="col-lg-4 col-md-4 col-lg-offset-1 col-md-offset-1" id="banner-btn-div">
             <button class="btn-lg btn-default">
                 <div class="btn-background">Download Resume</div></button>
             <button class="btn-lg btn-default">Contact Me</button>
         </div>
 
     </div><!-- end of the banner row-->
+
+    <div class="row center-block" id="info-row">
+        <a href="https://www.facebook.com/profile.php?id=100000921378343" target="_blank"  class="btn-default btn-lg">
+            <i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
+
+        <a href="https://www.linkedin.com/in/aymen-bennour-a23940130/" target="_blank"  class="btn-default btn-lg">
+            <i class="fa fa-linkedin fa-2x" aria-hidden="true"></i>
+        </a>
+        <a href="https://www.instagram.com/aymenbenn/" target="_blank"  class="btn-default btn-lg">
+            <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+        </a>
+        <a href="https://github.com/aymen7" target="_blank"  class="btn-default btn-lg">
+            <i class="fa fa-github fa-2x" aria-hidden="true"></i>
+        </a>
+
+        <section id="section07" class="demo">
+            <div><span></span><span></span><span></span></div>
+        </section>
+
+    </div><!-- end of the info row-->
 
 
 </header><!-- end of the banner title row-->

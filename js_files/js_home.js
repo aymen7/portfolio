@@ -73,7 +73,7 @@ $(document).ready(function () {
             // INJECT CSS
             var css = document.createElement("style");
             css.type = "text/css";
-            css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid rgba(32,194,14,1)}";
+            css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid rgba(255,255,255,0.4)}";
             document.body.appendChild(css);
 
 
@@ -140,50 +140,80 @@ $(".pics").mouseleave(function () {
 /*----------------show the services pics---------*/
 $(window).scroll(function () {
    var scrollPosition=$(this).scrollTop();
-   var option={percent:50};
+
+
+
+
    if(scrollPosition<290){
-       $("#pic1").addClass("hidden");
-       $("#pic2").addClass("hidden");
-       $("#pic3").addClass("hidden");
-       $("#services-div-title h1:nth-child(1)").addClass("hidden");
-       //$("#fix-position").fadeOut(0);
-       /*$("#fix-position").removeClass("animated ");
-       $("#fix-position").removeClass("slideInUp");*/
+
+
+
+
    }
 
-   if(scrollPosition >=290){
+   else if(scrollPosition >=290){
+
        console.log("scroll");
-       $("#pic1").removeClass("hidden");
        $("#pic1").addClass("animated slideInUp");
 
-       $("#pic2").removeClass("hidden");
        $("#pic2").addClass("animated slideInUp");
 
-       $("#pic3").removeClass("hidden");
        $("#pic3").addClass("animated slideInUp");
 
-       $("#services-div-title h1:nth-child(1)").removeClass("hidden");
        $("#services-div-title h1:nth-child(1)").addClass("animated slideInUp");
-
-       /*$("#fix-position").addClass("animated ");
-       $("#fix-position").addClass("slideInUp");*/
 
    }
 
 
 });
 
+$(window).scroll(function () {
 
 
-    $('.circle-groups .circle').circleProgress({
-        value: 0.9,
+});
+
+
+    $('#circle-group1 .circle').circleProgress({
+        value: 0.8,
         size: 200,
         fill: {
-            gradient: ["green", "blue"]
+            gradient: ["pink", "#4DB6AC"]
         }
     }).on('circle-animation-progress', function(event, progress) {
-        $(this).find('strong').html(Math.round(100 * progress) + '<i>%</i>');
+        $(this).find('strong').html(80+ '<i>%</i>');
     });
+
+    $('#circle-group2 .circle').circleProgress({
+        value: 0.6,
+        size: 200,
+        fill: {
+            gradient: ["pink", "#4DB6AC"]
+        }
+    }).on('circle-animation-progress', function(event, progress) {
+        $(this).find('strong').html(60+ '<i>%</i>');
+    });
+
+    $('#circle-group3 .circle').circleProgress({
+        value: 0.4,
+        size: 200,
+        fill: {
+            gradient: ["pink", "#4DB6AC"]
+        }
+    }).on('circle-animation-progress', function(event, progress) {
+        $(this).find('strong').html(40+ '<i>%</i>');
+    });
+
+    $('#circle-group4 .circle').circleProgress({
+        value: 0.7,
+        size: 200,
+        fill: {
+            gradient: ["pink", "#4DB6AC"]
+        }
+    }).on('circle-animation-progress', function(event, progress) {
+        $(this).find('strong').html(70+ '<i>%</i>');
+    });
+
+
 
 
 });//end of the ready function

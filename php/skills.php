@@ -4,21 +4,21 @@
     </div><!-- end of the title div-->
     <div id="skills-div-content" class="container-fluid">
         <div id="circles-fix-position">
-            <div class="circle-groups">
-        <div class="circle"><strong></strong></div>
+            <div class="circle-groups" id="circle-group1">
+        <div class="circle center-block"><strong></strong></div>
                 <h3 class="cirle-legend">HTML,CSS,JS</h3>
             </div><!-- end of the circle1 group-->
-            <div class="circle-groups">
+            <div class="circle-groups" id="circle-group2">
                 <div class="circle"><strong></strong></div>
                 <h3 class="cirle-legend">PHP , MySQL</h3>
             </div><!-- end of the circle1 group-->
 
-            <div class="circle-groups">
+            <div class="circle-groups" id="circle-group3">
                 <div class="circle"><strong></strong></div>
                 <h3 class="cirle-legend">Android DEVELOPEMENT</h3>
             </div><!-- end of the circle1 group-->
 
-            <div class="circle-groups">
+            <div class="circle-groups" id="circle-group4">
                 <div class="circle"><strong></strong></div>
                 <h3 class="cirle-legend" id="last-legend">SEO</h3>
             </div><!-- end of the circle1 group-->
