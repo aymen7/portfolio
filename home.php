@@ -20,6 +20,7 @@
         <!-- font awesome -->
         <link rel="stylesheet" href="css/font-awesome.min.css">
 
+        <link rel="stylesheet" href="animate.css-master/animate.css">
         <!-- my style css-->
         <link rel="stylesheet" href="css/home_style.css" >
 
@@ -51,6 +52,8 @@
 
          <?php        include ("php/services.php");       ?>
 
+         <?php        include ("php/skills.php");       ?>
+
          <!-- Return to Top -->
              <a href="#" id="return-to-top"><i class="fa fa-arrow-up fa-5x" aria-hidden="true"></i>
              </a>
@@ -66,6 +69,8 @@
        <script type="text/javascript" src="bootstrap-3.3.7-dist/js/bootstrap.js"></script>
 
          <script src="CreativeLinkEffects/js/modernizr.custom.js"></script>
+
+         <script src="jquery-circle-progress-master/dist/circle-progress.js"></script>
 
     <!-- my js script-->
     <script src="js_files/js_home.js"></script>
