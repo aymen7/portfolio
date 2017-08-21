@@ -11,6 +11,9 @@
                     dolor sodales sed. Pellentesque risus eros, venenatis ac nulla volutpat, accumsan vulputate mauris.</p>
 
             </div><!--end of the text div -->
+
+
+
             <div id="photo-div" class="col-md-5 col-lg-5 col-lg-offset-1 col-md-offset-1 container-fluid animated slideInUp">
 
 

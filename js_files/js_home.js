@@ -73,7 +73,7 @@ $(document).ready(function () {
             // INJECT CSS
             var css = document.createElement("style");
             css.type = "text/css";
-            css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid rgba(255,255,255,0.4)}";
+            css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid rgba(255,255,255,0.8)}";
             document.body.appendChild(css);
 
 
@@ -177,7 +177,7 @@ $(window).scroll(function () {
         value: 0.8,
         size: 200,
         fill: {
-            gradient: ["pink", "#4DB6AC"]
+            gradient: ["#222831", "#222831"]
         }
     }).on('circle-animation-progress', function(event, progress) {
         $(this).find('strong').html(80+ '<i>%</i>');
@@ -187,7 +187,7 @@ $(window).scroll(function () {
         value: 0.6,
         size: 200,
         fill: {
-            gradient: ["pink", "#4DB6AC"]
+            gradient: ["#222831", "#222831"]
         }
     }).on('circle-animation-progress', function(event, progress) {
         $(this).find('strong').html(60+ '<i>%</i>');
@@ -197,7 +197,7 @@ $(window).scroll(function () {
         value: 0.4,
         size: 200,
         fill: {
-            gradient: ["pink", "#4DB6AC"]
+            gradient: ["#222831", "#222831"]
         }
     }).on('circle-animation-progress', function(event, progress) {
         $(this).find('strong').html(40+ '<i>%</i>');
@@ -207,7 +207,7 @@ $(window).scroll(function () {
         value: 0.7,
         size: 200,
         fill: {
-            gradient: ["pink", "#4DB6AC"]
+            gradient: ["#222831", "#222831"]
         }
     }).on('circle-animation-progress', function(event, progress) {
         $(this).find('strong').html(70+ '<i>%</i>');

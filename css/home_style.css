@@ -1,7 +1,9 @@
 body{
 
-    background-image: url(../images/rsz_jan-henckens-311341.jpg);
+    /*background-image: url(../images/rsz_jan-henckens-311341.jpg);*/
     color: white;
+    width: 1349px;
+
 
 }
 .col-md-3-5 {
@@ -15,7 +17,12 @@ body{
 /*-----------------------------------------------header-------------------------------------------------------------*/
 header{
     margin-bottom: 0px;
+   width: 1363px;
+    background-image: url(../images/rsz_mia-baker-322558.jpg);
 
+}
+#header-background{
+    background-color: rgba(0,0,0,0.5);
 }
 #nav-row{
     margin-top: 0px;
@@ -28,12 +35,14 @@ header{
     /*background-image: url(../images/rsz_oskar-yildiz-110060.jpg);*/
     margin-top: 0px;
     margin-bottom: 0px;
+    width: 1364px;
 }
 .navbar-default{
   /*background-color: rgba(18,0,94,0);*/
     background-color: rgba(34,40,49,0.5)!important;
   border-color: rgba(250,250,250,0);
     margin-bottom: 0px;
+    width: 1349px;
 
 }
 .navbar-default .navbar-header >a {
@@ -76,15 +85,17 @@ header{
 #banner-header h1{
     font-size: 40px;
     letter-spacing: 0.5em;
+    /*color: rgba(255,152,0,1);*/
 }
 #banner-header h2{
     letter-spacing: 0.1em;
+    /*color: rgba(255,152,0,1);*/
 }
 .typewrite{
-    color: rgba(255,255,255,0.4);
+    color: rgba(255,255,255,0.8);
 }
 .typewrite span{
-    color:rgba(255,255,250,0.4);
+    color:rgba(255,255,250,0.8);
 }
 #banner-btn-div{
     margin-top: 330px;
@@ -96,7 +107,7 @@ header{
     background-color: rgba(245,0,87,0) !important;
 }
 #banner-btn-div .btn-default:hover{
-    background-color: rgba(81,1,144,1) !important;
+    background-color: #1DA1F2 !important;
     color: rgba(255,255,255,1);
     border-color: rgba(255,255,255,1);
 }
@@ -223,15 +234,16 @@ button:focus,button:active {
     margin: auto;
 }
 #main-div{
-    background-image: url(../images/rsz_jan-henckens-311341.jpg);
+   background-image: url(../images/rsz_jan-henckens-311341.jpg);
 
 }
 
 /*--------------------------------About------------------*/
 #about-div{
-    background-color: rgba(121,85,72,0.3);
+    /*background-color: rgba(121,85,72,0.3);*/
+      background-color: rgba(255,255,255,1);
     margin-top: 0px;
-    color: rgba(255,255,255,1);
+    color:  #222831;
     padding-bottom: 20px;
 
 }
@@ -241,7 +253,7 @@ button:focus,button:active {
     font-size: 40px;
     letter-spacing: 0.3em;
     text-align: center;
-    color:  rgba(255,255,255,1);
+
     margin-top: 80px;
     margin-bottom: 80px;
 }
@@ -269,7 +281,9 @@ button:focus,button:active {
 
 /*------------------services-----------*/
 #services-div{
-    background-color: rgba(81,116,144,0.4)	;
+    /*background-color: rgba(81,116,144,0.4)	;*/
+    background-color: rgba(255,255,255,1);
+    color: #222831;
 }
 #fix-position{
     float: none;
@@ -283,7 +297,6 @@ button:focus,button:active {
     font-size: 40px;
     letter-spacing: 0.3em;
     text-align: center;
-    color:  rgba(255,255,255,1);
     margin-top: 80px;
     margin-bottom: 80px;
 }
@@ -380,23 +393,28 @@ button:focus,button:active {
     top: 5px;
 }
 /*------------------skills------------*/
-#skills-div{
-    background-color: rgba(81,1,144,0.4);
-
+#skills-div,#skills-div{
+    /*background-color: rgba(81,1,144,0.4);*/
+    background-color: rgba(255,255,255,1);
+    color: #222831;
+    width: 1363px;
 }
 
+#skills-div-title{
+    width: 1349px;
+
+}
 #skills-div-title h1{
     font-family: 'Signika', sans-serif;
     font-size: 40px;
     letter-spacing: 0.3em;
     text-align: center;
-    color:  rgba(255,255,255,1);
     margin-top: 80px;
     margin-bottom: 50px;
 }
 #circles-fix-position{
     float: none;
-    margin-left: 70px;
+    margin-left: 150px;
 }
 .circle-groups{
     display: inline-block;

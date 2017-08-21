@@ -1,5 +1,5 @@
-<header class="container-fluid">
-
+<header class="container-fluid row">
+    <div class="row" id="header-background">
     <div class="row" id="nav-row">
 
         <nav class="navbar navbar-default navbar-fixed-top col-lg-offset-0 col-md-offset-0 cl-effect-14 row">
@@ -92,6 +92,6 @@
         </section>
 
     </div><!-- end of the info row-->
+    </div>
 
-
-</header><!-- end of the banner title row-->
+</header>
