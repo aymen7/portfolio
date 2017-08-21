@@ -164,6 +164,15 @@ $(window).scroll(function () {
 
    }
 
+   if(scrollPosition>=669){
+       $(".navbar-default").addClass("navbar-fixed-top");
+
+
+   }
+   else if(scrollPosition<669){
+       $(".navbar-default").removeClass("navbar-fixed-top");
+   }
+
 
 });
 
@@ -177,7 +186,7 @@ $(window).scroll(function () {
         value: 0.8,
         size: 200,
         fill: {
-            gradient: ["#222831", "#222831"]
+            gradient: ["#1DA1F2"]
         }
     }).on('circle-animation-progress', function(event, progress) {
         $(this).find('strong').html(80+ '<i>%</i>');
@@ -187,7 +196,7 @@ $(window).scroll(function () {
         value: 0.6,
         size: 200,
         fill: {
-            gradient: ["#222831", "#222831"]
+            gradient: ["#1DA1F2"]
         }
     }).on('circle-animation-progress', function(event, progress) {
         $(this).find('strong').html(60+ '<i>%</i>');
@@ -197,7 +206,7 @@ $(window).scroll(function () {
         value: 0.4,
         size: 200,
         fill: {
-            gradient: ["#222831", "#222831"]
+            gradient: ["#1DA1F2"]
         }
     }).on('circle-animation-progress', function(event, progress) {
         $(this).find('strong').html(40+ '<i>%</i>');
@@ -207,7 +216,7 @@ $(window).scroll(function () {
         value: 0.7,
         size: 200,
         fill: {
-            gradient: ["#222831", "#222831"]
+            gradient: ["#1DA1F2"]
         }
     }).on('circle-animation-progress', function(event, progress) {
         $(this).find('strong').html(70+ '<i>%</i>');

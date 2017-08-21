@@ -1,4 +1,5 @@
 <div class="container-fluid" id="about-div">
+
     <div class="row" id="about-div-title">
         <h1 class="animated slideInUp">About</h1>
     </div><!--end of the about div title-->

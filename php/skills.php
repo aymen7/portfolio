@@ -15,7 +15,7 @@
 
             <div class="circle-groups" id="circle-group3">
                 <div class="circle"><strong></strong></div>
-                <h3 class="cirle-legend">Android DEVELOPEMENT</h3>
+                <h3 class="cirle-legend">WordPress</h3>
             </div><!-- end of the circle1 group-->
 
             <div class="circle-groups" id="circle-group4">

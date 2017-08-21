@@ -589,7 +589,7 @@ nav a:focus {
 	position: absolute;
 	width: 45px;
 	height: 2px;
-	background: #fff;
+	background: #222831;
 	content: '';
 	opacity: 0.2;
 	-webkit-transition: all 0.3s;
