@@ -94,28 +94,7 @@ $(document).ready(function () {
     });
 
 
-/*--------------navbar animation after the scroll--------*/
-/*
-$(window).scroll(function () {
-    var scrollPosition=$(this).scrollTop();
-    if(scrollPosition >=281){
-        $(".main-nav-list").animate({
-            fontSize:12
-        },10);
-        $(".navbar-default").animate({
-            height:40
 
-        },10);
-    }
-    else {
-        $(".main-nav-list").animate({
-            fontSize:24
-        },10);
-        $(".navbar-default").animate({
-            height:56
-        },10);
-    }
-});  */
 
 /*removing the background from the services pics when hover*/
 $(".pics").hover(function () {
@@ -138,22 +117,85 @@ $(".pics").mouseleave(function () {
 });
 
 /*----------------show the services pics---------*/
+
 $(window).scroll(function () {
    var scrollPosition=$(this).scrollTop();
+   /*--------------main nav scrool---------------*/
+
+    if(scrollPosition>= 1750 ){
+        console.log("enter the contact div");
+        $(".main-nav-list").each(function () {
+            if($(this).hasClass("active")){
+                console.log("the id of teh active class "+$(this).attr("id"));
+                $(this).removeClass("active");
+            }
+        });
+        $("#link-3").removeClass('active');
+        $("#link-4").addClass('active');
+
+    }
+    if(scrollPosition>= 1700 ){
+        $(".main-nav-list").each(function () {
+            if($(this).hasClass("active")){
+                $(this).removeClass("active");
+            }
+        });
+        $("#link-3").addClass('active');
+
+    }
+    if(scrollPosition >=1500){
+        $(".main-nav-list").each(function () {
+            if($(this).hasClass("active")){
+                $(this).removeClass("active");
+            }
+        });
+        $("#link-2").addClass('active');
+
+    }
+
+    if(scrollPosition>=662 && scrollPosition<710){
+        $(".main-nav-list").each(function () {
+            if($(this).hasClass("active")){
+                $(this).removeClass("active");
+            }
+        });
+        $("#link-1").addClass('active');
+
+    }
+
+
+
+    $('#contact-div').appear($("#link-4").addClass('active'));
 
 
 
 
-   if(scrollPosition<290){
+
+
+   if(scrollPosition>=200 ){
+       $(".main-nav-list").each(function () {
+           if($(this).hasClass("active")){
+               $(this).removeClass("active");
+           }
+       });
+       $("#link-1").addClass('active');
 
 
 
+       $("#about-div-title h1").addClass("animated slideInUp");
+       $("#text-div h1").addClass("animated slideInUp");
+       $("#text-div p").addClass("animated slideInUp");
+       $("#photo-div ").addClass("animated slideInUp");
 
    }
+   if(scrollPosition >=770){
+       $(".main-nav-list").each(function () {
+           if($(this).hasClass("active")){
+               $(this).removeClass("active");
+           }
+       });
+       $("#link-2").addClass('active');
 
-   else if(scrollPosition >=290){
-
-       console.log("scroll");
        $("#pic1").addClass("animated slideInUp");
 
        $("#pic2").addClass("animated slideInUp");
@@ -163,10 +205,18 @@ $(window).scroll(function () {
        $("#services-div-title h1:nth-child(1)").addClass("animated slideInUp");
 
    }
+       if(scrollPosition>= 1700 ){
+           $(".main-nav-list").each(function () {
+               if($(this).hasClass("active")){
+                   $(this).removeClass("active");
+               }
+           });
+           $("#link-3").addClass('active');
+
+       }
 
    if(scrollPosition>=669){
        $(".navbar-default").addClass("navbar-fixed-top");
-
 
    }
    else if(scrollPosition<669){
@@ -176,50 +226,234 @@ $(window).scroll(function () {
 
 });
 
-$(window).scroll(function () {
 
 
-});
 
 
-    $('#circle-group1 .circle').circleProgress({
-        value: 0.8,
-        size: 200,
-        fill: {
-            gradient: ["#1DA1F2"]
+
+// Place comments here...
+
+
+
+
+// Chart Script - Used for Skill-set section
+    $.circleProgress = {
+        defaults: {
+            value: 0,
+            size: 180, // Change this for height
+            startAngle: -Math.PI,
+            thickness: 100,
+            fill: {
+                gradient: ["#1DA1F2"]
+            },
+            emptyFill: 'rgba(0,0,0,0.2)',
+            animation: {
+                duration: 1200,
+                easing: 'circleProgressEasing'
+            }
         }
-    }).on('circle-animation-progress', function(event, progress) {
-        $(this).find('strong').html(80+ '<i>%</i>');
+    };
+    $.easing.circleProgressEasing = function (x, t, b, c, d) {
+        if ((t /= d / 2) < 1) return c / 2 * t * t * t + b;
+        return c / 2 * ((t -= 2) * t * t + 2) + b;
+    };
+    $.fn.circleProgress = function (options) {
+        if (options == 'widget') return this.data('circle-progress');
+
+        options = $.extend({}, $.circleProgress.defaults, options);
+
+        return this.each(function () {
+            var el = $(this),
+                size = options.size,
+                radius = size / 2,
+                thickness = size / 14,
+                value = options.value,
+                startAngle = options.startAngle,
+                emptyArcFill = options.emptyFill,
+                arcFill;
+
+            if ($.isNumeric(options.thickness)) thickness = options.thickness;
+
+            var canvas = el.data('circle-progress');
+
+            if (!canvas) {
+                canvas = $('<canvas>').prependTo(el)[0];
+                el.data('circle-progress', canvas);
+            }
+
+            canvas.width = size;
+            canvas.height = size;
+
+            var ctx = canvas.getContext('2d');
+
+            if (!options.fill) throw Error("The fill is not specified!");
+
+            if (options.fill.color) arcFill = options.fill.color;
+
+            if (options.fill.gradient) {
+                var gr = options.fill.gradient;
+                if (gr.length == 1) {
+                    arcFill = gr[0];
+                } else if (gr.length > 1) {
+                    var lg = ctx.createLinearGradient(0, 0, size, 0);
+                    for (var i = 0; i < gr.length; i++)
+                        lg.addColorStop(i / (gr.length - 1), gr[i]);
+                    arcFill = lg;
+                }
+            }
+
+            if (options.fill.image) {
+                var img = new Image();
+                img.src = options.fill.image;
+                img.onload = function () {
+                    var bg = $('<canvas>')[0];
+                    bg.width = size;
+                    bg.height = size;
+                    bg.getContext('2d').drawImage(img, 0, 0, size, size);
+                    arcFill = ctx.createPattern(bg, 'no-repeat');
+
+                    if (!options.animation) draw(value);
+                }
+            }
+
+            if (options.animation) drawAnimated(value);
+            else draw(value);
+
+            function draw(v) {
+                ctx.clearRect(0, 0, size, size);
+                drawArc(v);
+                drawEmptyArc(v);
+            }
+
+            function drawArc(v) {
+                ctx.save();
+                ctx.beginPath();
+                ctx.arc(radius, radius, radius - thickness / 2, startAngle, startAngle + Math.PI * 2 * v);
+                ctx.lineWidth = thickness;
+                ctx.strokeStyle = arcFill;
+                ctx.stroke();
+                ctx.restore();
+            }
+
+            function drawEmptyArc(v) {
+                ctx.save();
+                if (v < 1) {
+                    ctx.beginPath();
+                    if (v <= 0) ctx.arc(radius, radius, radius - thickness / 2, 0, Math.PI * 2);
+                    else ctx.arc(radius, radius, radius - thickness / 2, startAngle + Math.PI * 2 * v, startAngle);
+                    ctx.lineWidth = thickness;
+                    ctx.strokeStyle = emptyArcFill;
+                    ctx.stroke();
+                }
+                ctx.restore();
+            }
+
+            function drawAnimated(v) {
+                el.trigger('circle-animation-start');
+
+                $(canvas).css({
+                    progress: 0
+                }).animate({
+                        progress: v
+                    },
+                    $.extend({}, options.animation, {
+                        step: function (p) {
+                            draw(p);
+                            el.trigger('circle-animation-progress', [p / v, p]);
+                        },
+
+                        complete: function () {
+                            el.trigger('circle-animation-end');
+                        }
+                    }));
+            }
+        });
+    };
+    function animateElements(e, init) {
+        if(init){
+            $('.progressbar').data('animate', false);
+        }
+
+
+        $('.progressbar').each(function () {
+            var elementPos = $(this).offset().top;
+            var topOfWindow = $(window).scrollTop();
+            var percent = $(this).find('.circle').attr('data-percent');
+            var percentage = parseInt(percent, 10) / parseInt(100, 10);
+            var animate = $(this).data('animate');
+
+            if (elementPos < topOfWindow + $(window).height() - 30 && !animate) {
+                //$(this).data('animate', false); // Change this 'false -or- true' - Currently set to false so that each time a user clicks on 'Skill-set' link, animation occurs
+                $(this).data('animate', true);
+                $(this).find('.circle').circleProgress({
+                    startAngle: -Math.PI / 2,
+                    value: percent / 100,
+                    thickness: "auto", // Change this for thickness
+                    fill: {
+                        color: '#1DA1F2'
+                    }
+                }).on('circle-animation-end', function(){
+                    //$(this).parent().data('animate', false);
+                }).on('circle-animation-progress', function (event, progress, stepValue) {
+                    $(this).find('.percent').text((stepValue * 100).toFixed(1) + "%");
+                    // NOTE: Change '.toFixed(0)' to '.toFixed(1)' to get 1 decimal place to the right...
+                }).stop();
+            }
+        });
+
+    }
+    //animateElements();
+    $(window).scroll(animateElements);
+
+/*---------form manipulation and ajax call ---------------*/
+
+
+    $( "#contact-form" ).submit(function( event ) {
+
+        $.ajax({
+            type: "POST",
+            url: "php/contact_script.php",
+            //data:data,
+            data : $("#contact-form input,#contact-form textarea").serialize(),
+            success: function(data) {
+                $("#contact-form").trigger("reset");
+                $('#submit_btn .fa-paper-plane').addClass("hidden");
+                $('#submit_btn .fa-check').removeClass("hidden");
+
+                setTimeout(function () {
+                    $('#submit_btn .fa-paper-plane').removeClass("hidden");
+                    $('#submit_btn .fa-check').addClass("hidden");
+                },5000);
+            },
+            error:function () {
+                alert("erruer dans la transmition du données ");
+
+            }
+        });
+
+
+
+        event.preventDefault();
     });
 
-    $('#circle-group2 .circle').circleProgress({
-        value: 0.6,
-        size: 200,
-        fill: {
-            gradient: ["#1DA1F2"]
-        }
-    }).on('circle-animation-progress', function(event, progress) {
-        $(this).find('strong').html(60+ '<i>%</i>');
-    });
 
-    $('#circle-group3 .circle').circleProgress({
-        value: 0.4,
-        size: 200,
-        fill: {
-            gradient: ["#1DA1F2"]
-        }
-    }).on('circle-animation-progress', function(event, progress) {
-        $(this).find('strong').html(40+ '<i>%</i>');
-    });
+//jquery ui box modele
+    var dialog=$( "#dialog-message" );
+    $( function() {
+        dialog=dialog.dialog({
+            autoOpen: false,
+            modal: true,
+            buttons: {
+                Ok: function() {
+                    $( this ).dialog( "close" );
+                }
 
-    $('#circle-group4 .circle').circleProgress({
-        value: 0.7,
-        size: 200,
-        fill: {
-            gradient: ["#1DA1F2"]
-        }
-    }).on('circle-animation-progress', function(event, progress) {
-        $(this).find('strong').html(70+ '<i>%</i>');
+            }
+        });
+    } );
+
+    $( "#submit_btn" ).button().on( "click", function() {
+        dialog.dialog( "open" );
     });
 
 

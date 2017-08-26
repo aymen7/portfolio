@@ -1,10 +1,9 @@
 body{
 
     /*background-image: url(../images/rsz_jan-henckens-311341.jpg);*/
-    color: white;
+    margin: 0;
     width: 1349px;
-
-
+    color: white;
 }
 .col-md-3-5 {
     width: 29.16667%;
@@ -17,9 +16,13 @@ body{
 /*-----------------------------------------------header-------------------------------------------------------------*/
 header{
     margin-bottom: 0px;
-   width: 1363px;
-    background-image: url(../images/rsz_mia-baker-322558.jpg);
+    width: 1363px;
 
+    background: url(../images/rsz_mia-baker-322558.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 #header-background{
     background-color: rgba(0,0,0,0.5);
@@ -37,17 +40,22 @@ header{
     /*background-image: url(../images/rsz_oskar-yildiz-110060.jpg);*/
     margin-top: 0px;
     margin-bottom: 0px;
-    width: 1364px;
+   width: 1364px;
+
+}
+.navbar-default button{
+    color: #222831;
 }
 .navbar-default,.navbar{
   /*background-color: rgba(18,0,94,0);*/
     background-color: rgba(255,255,255,1)!important;
-  border-color: rgba(250,250,250,0);
+    border-color: rgba(250,250,250,0);
     margin-bottom: 0px;
     width: 1363px;
     border-bottom: #222831 solid thin;
 
 }
+
 .navbar-default .navbar-header .navbar-brand{
     color:#1DA1F2;
 }
@@ -59,13 +67,19 @@ header{
     margin-left: 0px;
 
 }
+.navbar-default .navbar-header >a[class="active"]{
+    color:#1DA1F2 !important;
+
+}
+
+
 #main-nav{
-    margin-left: 100px;
+    margin-left: 170px;
 }
 
 .main-nav-list{
     font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
+    font-size: 14px;
     margin-left: 5px;
 
 
@@ -77,14 +91,14 @@ header{
     margin-top: 5px;
 }
 .navbar-default .navbar-nav >li >a:hover,.navbar-default .navbar-header >a:hover {
-    color: rgba(34,40,49,1);
+    color: #1DA1F2;
 
 }
 .typewriter{
     padding-top: 50px;
 }
 #banner-header{
-    margin-top: 150px;
+    margin-top: 100px;
     margin-bottom: 50px;
 }
 #banner-header h1,#banner-header h2{
@@ -96,6 +110,7 @@ header{
 #banner-header h1{
     font-size: 40px;
     letter-spacing: 0.5em;
+    margin-bottom: 30px;
     /*color: rgba(255,152,0,1);*/
 }
 #banner-header h2{
@@ -109,7 +124,7 @@ header{
     color:rgba(255,255,250,0.8);
 }
 #banner-btn-div{
-    margin-top: 330px;
+    margin-top: 300px;
 }
 #banner-btn-div .btn-default{
     border-width: thin;
@@ -127,8 +142,8 @@ header{
     margin-left: 10px;
 }
 #info-row{
-    margin: 120px 0px 10px 500px;
-    padding-bottom: 100px;
+    margin: 100px 0px 10px 500px;
+    padding-bottom: 158.8px;
 }
 #info-row a{
     border-width: thin;
@@ -254,18 +269,18 @@ button:focus,button:active {
     /*background-color: rgba(121,85,72,0.3);*/
       background-color: rgba(255,255,255,1);
     color:  #222831;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
 
 }
 
 #about-div-title h1{
     font-family: 'Signika', sans-serif;
-    font-size: 40px;
+    font-size: 48px;
     letter-spacing: 0.3em;
     text-align: center;
 
-    margin-top: 80px;
-    margin-bottom: 80px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 #about-content-div{
     margin-top: 20px;
@@ -307,8 +322,8 @@ button:focus,button:active {
     font-size: 40px;
     letter-spacing: 0.3em;
     text-align: center;
-    margin-top: 80px;
-    margin-bottom: 80px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 #pic1{
     height: 350px;
@@ -361,6 +376,54 @@ button:focus,button:active {
     padding-top: 17px;
     text-align: center;
 }
+/*-----------------services1----------------*/
+#services1-div{
+    background-color: #222831;
+}
+#services1-div-title h1{
+    font-family: 'Signika', sans-serif;
+    font-size: 40px;
+    letter-spacing: 0.3em;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+#services1-content{
+    margin-bottom: 50px;
+}
+#fix-position1{
+    float: none;
+    margin: 0 auto;
+}
+.fa-lightbulb-o,.fa-lock,.fa-wrench{
+    font-size: 100px;
+}
+#pic11-frame,#pic22-frame,#pic33-frame,#pic44-frame{
+    text-align: center;
+}
+#pic22-frame{
+    padding-top: 0px;
+}
+.fa-desktop{
+    font-size: 130px;
+}
+.fa-tablet{
+    font-size: 85px;
+}
+.fa-mobile{
+    font-size: 52px;
+}
+#pic11-frame h3{
+    margin-top: 50px;
+}
+#pic22-frame h3{
+}
+#pic33-frame h3{
+    margin-top: 50px;
+}
+#pic44-frame h3{
+    margin-top: 50px;
+}
 /*-----------------------------------------------return to top icon-------------------------------------------------*/
 #return-to-top {
     position: fixed;
@@ -403,11 +466,12 @@ button:focus,button:active {
     top: 5px;
 }
 /*------------------skills------------*/
-#skills-div,#skills-div{
+#skills-div{
     /*background-color: rgba(81,1,144,0.4);*/
     background-color: rgba(255,255,255,1);
     color: #222831;
     width: 1363px;
+    padding-bottom: 50px;
 }
 
 #skills-div-title{
@@ -419,18 +483,18 @@ button:focus,button:active {
     font-size: 40px;
     letter-spacing: 0.3em;
     text-align: center;
-    margin-top: 80px;
+    margin-top: 50px;
     margin-bottom: 50px;
 }
 #circles-fix-position{
     float: none;
     margin-left: 150px;
 }
-.circle-groups{
+.progressbar{
     display: inline-block;
 }
 
-.circle strong{
+.circle .percent{
     position: relative;
     bottom: 85px;
     left:-140px ;
@@ -442,6 +506,70 @@ button:focus,button:active {
     font-family: 'Signika', sans-serif;
     font-size: 24px;
 }
-#last-legend{
+#legend1{
+    margin-left: 25px;
+}
+#legend2{
+    margin-left: 30px;
+}
+#legend3{
+    margin-left: 45px;
+}
+#legend4{
     margin-left: 80px;
+}
+
+/*----------------------------------------- contact-----------------------------------------*/
+#contact-div{
+    background-color: #222831;
+    padding-bottom: 50px;
+
+}
+#contact-div-title h1{
+    font-family: 'Signika', sans-serif;
+    font-size: 48px;
+    letter-spacing: 0.3em;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#contact-form input,#contact-form textarea {
+    background-color: #222831 !important;
+    color: rgba(255,255,255,0.8);
+    margin-top: 50px;
+}
+#contact-form input{
+    border-style: none;
+    border-bottom: solid thin rgba(255,255,255,0.8);
+}
+#contact-form button{
+    margin: 40px 0 20px 370px;
+}
+input:focus,input:active,textarea:active,textarea:focus{
+    outline:0px !important;
+    -webkit-appearance:none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0) !important;
+}
+#submit_btn span{
+    margin-right: 20px;
+    margin-left: 0px;
+
+}
+
+#contact-form {
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+}
+
+/*--------------footer-----------*/
+footer {
+    color: #222831;
+    padding: 20px 0px;
+}
+footer h4{
+
+    text-align: center;
 }

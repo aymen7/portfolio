@@ -11,6 +11,9 @@
         <link rel="stylesheet" type="text/css" href="CreativeLinkEffects/css/demo.css" />
         <link rel="stylesheet" type="text/css" href="CreativeLinkEffects/css/component.css" />
 
+        <link rel="stylesheet" href="jquery-ui-1.12.1.custom/jquery-ui.css">
+        <link rel="stylesheet" href="jquery-ui-1.12.1.custom/jquery-ui.theme.css">
+
         <!-- Bootstrap -->
         <link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
 
@@ -70,15 +73,15 @@
                          <ul class="nav navbar-nav " id="main-nav">
 
 
-                             <li class="main-nav-list"><a href="#">About</a></li>
+                             <li class="main-nav-list " id="link-1"><a href="#about-div">About Me</a></li>
 
-                             <li class="main-nav-list"><a href="#">Services</a></li>
+                             <li class="main-nav-list" id="link-2"><a href="#services1-div">Services</a></li>
 
-                             <li class="main-nav-list"><a href="#">Skills</a></li>
+                             <li class="main-nav-list" id="link-3"><a href="#skills-div">Skills</a></li>
 
-                             <li class="main-nav-list"><a href="#">Contact</a></li>
+                             <li class="main-nav-list  active" id="link-4"><a href="#contact-div">Contact</a></li>
 
-                             <li class="main-nav-list"><a href="#">Blog</a></li>
+                             <li class="main-nav-list" id="link-5"><a href="#">Blog</a></li>
                          </ul><!-- end for the main nav list-->
 
                      </div><!-- end of the navba-collapse-->
@@ -92,9 +95,18 @@
          <!-- include the about php -->
          <?php        include("php/about.php");    ?>
 
-         <?php        include ("php/services.php");       ?>
+         <!--?php        include ("php/services.php");       ?-->
+
+         <?php        include ("php/services1.php");       ?>
 
          <?php        include ("php/skills.php");       ?>
+
+         <?php        include ("php/contact.php");       ?>
+
+         <?php        include ("php/dialog.php");       ?>
+
+
+         <?php        include ("php/footer.php");       ?>
 
          <!-- Return to Top -->
              <a href="#" id="return-to-top"><i class="fa fa-arrow-up fa-5x" aria-hidden="true"></i>
@@ -113,6 +125,10 @@
          <script src="CreativeLinkEffects/js/modernizr.custom.js"></script>
 
          <script src="jquery-circle-progress-master/dist/circle-progress.js"></script>
+
+         <script src="jquery.appear-master/jquery.appear.js"></script>
+
+         <script src="jquery-validation-master/src/core.js"></script>
 
     <!-- my js script-->
     <script src="js_files/js_home.js"></script>

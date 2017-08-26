@@ -1,27 +1,37 @@
 <div id="skills-div" class="container-fluid row">
-    <div class="row" id="skills-div-title">
+    <div class="row " id="skills-div-title">
         <h1><b>My Skills</b></h1>
     </div><!-- end of the title div-->
     <div id="skills-div-content" class="container-fluid">
         <div id="circles-fix-position">
-            <div class="circle-groups" id="circle-group1">
-        <div class="circle center-block"><strong></strong></div>
-                <h3 class="cirle-legend">HTML,CSS,JS</h3>
-            </div><!-- end of the circle1 group-->
-            <div class="circle-groups" id="circle-group2">
-                <div class="circle"><strong></strong></div>
-                <h3 class="cirle-legend">PHP , MySQL</h3>
-            </div><!-- end of the circle1 group-->
 
-            <div class="circle-groups" id="circle-group3">
-                <div class="circle"><strong></strong></div>
-                <h3 class="cirle-legend">WordPress</h3>
-            </div><!-- end of the circle1 group-->
+            <div class="progressbar" data-animate="false">
+                <div class="circle" data-percent="80">
+                    <strong class="percent"></strong>
+                </div>
+                <h3 class="cirle-legend" id="legend1">HTML,CSS,JS</h3>
+            </div>
 
-            <div class="circle-groups" id="circle-group4">
-                <div class="circle"><strong></strong></div>
-                <h3 class="cirle-legend" id="last-legend">SEO</h3>
-            </div><!-- end of the circle1 group-->
+            <div class="progressbar" data-animate="false">
+                <div class="circle" data-percent="70">
+                    <strong class="percent"></strong>
+                </div>
+                <h3 class="cirle-legend" id="legend2">PHP , MySQL</h3>
+            </div>
+
+            <div class="progressbar" data-animate="false">
+                <div class="circle" data-percent="40">
+                    <strong class="percent"></strong>
+                </div>
+                <h3 class="cirle-legend" id="legend3">Wordpress</h3>
+            </div>
+            <div class="progressbar" data-animate="false">
+                <div class="circle" data-percent="60">
+                    <strong class="percent"></strong>
+                </div>
+                <h3 class="cirle-legend" id="legend4">SEO</h3>
+            </div>
+
 
         </div><!-- end of the circles fix position-->
 
