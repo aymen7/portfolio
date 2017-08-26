@@ -5,7 +5,7 @@
         <div class="col-lg-5 col-md-5 col-lg-offset-1 col-md-offset-1 typewriter">
             <div id="banner-header" >
 
-               <h1>Aymen Bennour</h1>
+                <h1>Aymen <span>Bennour</span></h1>
                <h2>Web Developer</h2>
 
 
@@ -17,10 +17,11 @@
             </h1>
         </div>
 
-        <div class="col-lg-4 col-md-4 col-lg-offset-1 col-md-offset-1" id="banner-btn-div">
-            <button class="btn-lg btn-default">
+        <div class="col-lg-4 col-md-4 col-lg-offset-1 col-md-offset-1  row"
+             id="banner-btn-div">
+            <button class="btn-lg btn-default col-xs-6 col-xs-offset-1">
                 <div class="btn-background">Download Resume</div></button>
-            <button class="btn-lg btn-default">Contact Me</button>
+            <button class="btn-lg btn-default col-xs-5" id="conactMe-btn">Contact Me</button>
         </div>
 
     </div><!-- end of the banner row-->

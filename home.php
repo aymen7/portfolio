@@ -26,6 +26,9 @@
         <link rel="stylesheet" href="animate.css-master/animate.css">
         <!-- my style css-->
         <link rel="stylesheet" href="css/home_style.css" >
+        <link rel="stylesheet" href="css/responsive_home_style1.css" >
+
+
 
         <!-- font links -->
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
@@ -58,7 +61,8 @@
                      <!-- Brand and toggle get grouped for better mobile display -->
                      <div class="navbar-header">
 
-                         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#target1"
+                         <button type="button" class="navbar-toggle collapsed"
+                                 data-toggle="collapse" data-target="#target1"
                                  aria-expanded="false">
                              <span class="sr-only">Toggle navigation</span>
                              <span class="icon-bar"></span>

@@ -1,5 +1,5 @@
 <div id="skills-div" class="container-fluid row">
-    <div class="row " id="skills-div-title">
+    <div class="" id="skills-div-title">
         <h1><b>My Skills</b></h1>
     </div><!-- end of the title div-->
     <div id="skills-div-content" class="container-fluid">
