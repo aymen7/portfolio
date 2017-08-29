@@ -56,7 +56,8 @@
          <div class="row" id="nav-row">
 
              <nav class="navbar navbar-default  col-lg-offset-0 col-md-offset-0  row">
-                 <div class="container-fluid col-lg-offset-1 col-md-offset-1" id="navbar-background">
+                 <div class="container-fluid col-lg-offset-1 col-md-offset-1"
+                      id="navbar-background">
 
                      <!-- Brand and toggle get grouped for better mobile display -->
                      <div class="navbar-header">
