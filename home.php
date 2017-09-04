@@ -108,7 +108,6 @@
 
          <?php        include ("php/contact.php");       ?>
 
-         <?php        include ("php/dialog.php");       ?>
 
 
          <?php        include ("php/footer.php");       ?>

@@ -437,26 +437,6 @@ $(window).scroll(function () {
     });
 
 
-//jquery ui box modele
-    var dialog=$( "#dialog-message" );
-    $( function() {
-        dialog=dialog.dialog({
-            autoOpen: false,
-            modal: true,
-            buttons: {
-                Ok: function() {
-                    $( this ).dialog( "close" );
-                }
-
-            }
-        });
-    } );
-
-    $( "#submit_btn" ).button().on( "click", function() {
-        dialog.dialog( "open" );
-    });
-
-
 
 
 });//end of the ready function

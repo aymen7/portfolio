@@ -587,6 +587,51 @@
     }
 
 }
+@media (min-width:305px)  and (max-width: 319px){
+    #contactMe-btn{
+        padding-bottom: 18px;
+        padding-top: 18px;
+    }
+    #info-row{
+        margin-left: 7%;
+        padding-bottom: 100px;
+        margin-top: 20px;
+        width: auto;
+    }
+    #section07 div {
+        position: absolute;
+        top: 82%;
+        margin-left: 50%;
+        padding-top: 80px;
+    }
+    .navbar-default .navbar-header >a {
+        color: rgba(34,40,49,1);
+        margin-bottom: 2px;
+        margin-top: 2px;
+        padding-left: 7%;
+        margin-right: 0px;
+
+    }
+    .navbar-default .navbar-header >button {
+        margin-right: 0px;
+
+    }
+    #circles-fix-position{
+        float: none;
+        margin-left: 10%;
+    }
+    #legend4{
+        margin-left: 40%;
+        position: relative;
+        top:0px;
+        margin-top: 0px;
+    }
+    #contact-form button{
+        margin: 40px 0 20px 25%;
+    }
+
+}
+
 /*------------------ small phone-----------*/
 @media (min-width:320px)  and (max-width: 479px){
     /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
@@ -1238,6 +1283,12 @@
 
 }
 /*-----------smartphones, Android phones, landscape iPhone ------------*/
+
+
+
+
+
+
 
 
 @media (min-width:480px)  and (max-width: 599px){
