@@ -1,23 +1,27 @@
+* {
+    outline: 1px solid red;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
 body{
 
     /*background-image: url(../images/rsz_jan-henckens-311341.jpg);*/
     margin: 0;
-    width: 1349px;
     color: white;
+    height:100%;
+    width:100%;
+    margin:0;
+    padding:0;
 }
-.col-md-3-5 {
-    width: 29.16667%;
-    margin-left: 20px;
-}
-.col-lg-3-5{
-    width: 29.16667%;
-    margin-left: 20px;
-}
+
 /*-----------------------------------------------header-------------------------------------------------------------*/
 header{
     margin-bottom: 0px;
-    width: 1363px;
-
+    width:100%;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
     background: url(../images/rsz_mia-baker-322558.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -28,20 +32,18 @@ header{
     background-color: rgba(0,0,0,0.5);
 }
 #nav-row{
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
     /*background-color: rgba(1,87,155,1);*/
     background-color: rgba(255,255,255,1) ;
-    width: 1363px;
-
 }
 
 #banner-row{
     /*background-image: url(../images/rsz_oskar-yildiz-110060.jpg);*/
-    margin-top: 0px;
-    margin-bottom: 0px;
-    width: 1364px;
-
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
 }
 .navbar-default button{
     color: #222831;
@@ -51,32 +53,29 @@ header{
     background-color: rgba(255,255,255,1)!important;
     border-color: rgba(250,250,250,0);
     margin-bottom: 0px;
-    width: 1363px;
+    width: 100%;
     border-bottom: #222831 solid thin;
 
 }
-
+#navbar-background{
+}
 .navbar-default .navbar-header .navbar-brand{
     color:#1DA1F2;
+    padding-left: 7%;
 }
 .navbar-default .navbar-header >a {
     color: rgba(34,40,49,1);
     margin-bottom: 2px;
     margin-top: 2px;
-    padding-left: 5px;
-    margin-left: 0px;
-
+    font-size: medium;
 }
 .navbar-default .navbar-header >a[class="active"]{
     color:#1DA1F2 !important;
 
 }
-
-
 #main-nav{
     margin-left: 170px;
 }
-
 .main-nav-list{
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
@@ -84,7 +83,6 @@ header{
 
 
 }
-
 .navbar-default .navbar-nav >li >a,.navbar-default .navbar-header >a {
     color: rgba(34,40,49,0.85);
     margin-bottom: 5px;
@@ -241,27 +239,15 @@ button:focus,button:active {
     }
 }
 
-
 /*-------- typewriting effect------------------*/
 .typewrite span {
     border-right: .05em solid;
     animation: caret 1s steps(1) infinite;
 }
-
 @keyframes caret {
     50% {
         border-color: transparent;
     }
-}
-
-
-/*--------------------------------carousel---------------------------------*/
-.carousel-inner img {
-    margin: auto;
-}
-#main-div{
-    background-image: url(../images/rsz_jan-henckens-311341.jpg);
-
 }
 
 /*--------------------------------About------------------*/
@@ -493,7 +479,6 @@ button:focus,button:active {
 .progressbar{
     display: inline-block;
 }
-
 .circle .percent{
     position: relative;
     bottom: 85px;
@@ -558,7 +543,6 @@ input:focus,input:active,textarea:active,textarea:focus{
     margin-left: 0px;
 
 }
-
 #contact-form {
     -webkit-animation-duration: 4s;
     animation-duration: 4s;
