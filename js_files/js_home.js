@@ -215,11 +215,11 @@ $(window).scroll(function () {
 
        }
 
-   if(scrollPosition>=669){
+   if(scrollPosition>=h+60){
        $(".navbar-default").addClass("navbar-fixed-top");
 
    }
-   else if(scrollPosition<669){
+   else if(scrollPosition<h+60){
        $(".navbar-default").removeClass("navbar-fixed-top");
    }
 
@@ -231,7 +231,6 @@ $(window).scroll(function () {
 
 
 
-// Place comments here...
 
 
 
@@ -448,7 +447,7 @@ $(window).scroll(function () {
     var h = $(window).height();
     $('header').css('height', h);
 
-    if(w>=320&&w<481)
+    if(w>=320 && w<1199)
     {
         $('header').css('width', w);
         $('header').css('margin-left', 0.1);
