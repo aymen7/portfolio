@@ -436,19 +436,15 @@ $(window).scroll(function () {
     });
 
    //inspect the element causing scroll bar problem
-    var all = document.getElementsByTagName("*"), i = 0, rect, docWidth = document.documentElement.offsetWidth;
-    for (; i < all.length; i++) {
-        rect = all[i].getBoundingClientRect();
-        if (rect.right > docWidth || rect.left < 0){
-            console.log(all[i]);
-        }
-    }
+
     var w = $(window).width();
     var h = $(window).height();
     $('header').css('height', h);
 
     if(w>=320 && w<=991)
     {
+        console.log("991");
+
         $('header').css('width', w);
         $('header').css('margin-left', 0.1);
         $('#header-background').css('width', w);
@@ -461,8 +457,12 @@ $(window).scroll(function () {
         //$('.navbar').css('width', w);
         $('#skills-div').css('width', w);
     }
-    if(w>=1200)
+
+
+    if(w>=1281)
     {
+        console.log("1281");
+
         $('header').css('width', w);
         $('header').css('margin-left', 0.1);
         $('#header-background').css('width', w);

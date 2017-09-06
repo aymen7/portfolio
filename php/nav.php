@@ -15,7 +15,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand hidden-sm hidden-md" href="#">Bennour Aymen</a>
+                <a class="navbar-brand hidden-sm hidden-md hidden-lg" href="#">Bennour Aymen</a>
             </div><!-- end of the navbar-header div-->
 
             <!-- Collect the nav links, forms, and other content for toggling -->
