@@ -2,7 +2,7 @@
     <div class="" id="skills-div-title">
         <h1><b>My Skills</b></h1>
     </div><!-- end of the title div-->
-    <div id="skills-div-content" class="row col-lg-11 col-md-11 center-block">
+    <div id="skills-div-content" class="row col-lg-11 col-md-9 center-block">
 
             <div class="progressbar" data-animate="false">
                 <div class="circle" data-percent="80">

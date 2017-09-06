@@ -2,7 +2,7 @@
     <div class="row" id="header-background">
 
         <div class="container-fluid" id="banner-row">
-            <div class="col-lg-5 col-md-5 col-lg-offset-1 col-md-offset-1 typewriter ">
+            <div class="col-lg-5 col-md-7 col-lg-offset-1 col-md-offset-1 typewriter ">
                 <div id="banner-header" class="center-block">
 
                     <h1>Aymen Bennour</h1>

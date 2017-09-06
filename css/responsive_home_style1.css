@@ -6545,7 +6545,7 @@ and (min-device-width: 320px) and (max-device-width: 376px)
 
 /*------------------------------------------------------------------------------------------------------------------*/
 
-@media (min-width:801px) and (max-device-width: 991px) {
+@media (min-width:801px) and (max-device-width: 899px) {
     header{
         margin-bottom: 0px;
         max-height: 100vh;
@@ -7087,6 +7087,1089 @@ and (min-device-width: 320px) and (max-device-width: 376px)
 
 
 }
+@media (min-width:900px) and (max-device-width: 991px) {
+    header{
+        margin-bottom: 0px;
+        max-height: 100vh;
+        width: auto;
+        background: url(../images/rsz_mia-baker-322558.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    #banner-row{
+        /*background-image: url(../images/rsz_oskar-yildiz-110060.jpg);*/
+        margin-top: 0px;
+        margin-bottom: 30px;
+        width: auto;
+
+    }
+
+    .center-block{
+        float: none;
+    }
+    #header-background{
+        background-color: rgba(0,0,0,0.5);
+        /*to make the black background as tall as the header*/
+        height: 100%;
+    }
+    .typewriter{
+        padding-top: 10px;
+        margin: 0 auto;
+    }
+    #banner-header{
+        margin-top: 0px;
+        margin-bottom: 20px;
+        margin-left: 0%;
+    }
+    #banner-header h1,#banner-header h2{
+
+        font-family: 'Signika', sans-serif;
+        font-weight: bold;
+        color: rgba(255,255,255,1);
+        text-align: center;
+    }
+    #banner-header h1{
+        font-size: 35px;
+        letter-spacing: 0.3em;
+        margin-bottom: 10px;
+        /*color: rgba(255,152,0,1);*/
+    }
+    #banner-header h1 span{
+        margin-top: 50px;
+    }
+    #banner-header h2{
+        letter-spacing: 0.1em;
+        font-size: 30px;
+        /*color: rgba(255,152,0,1);*/
+    }
+    .typewrite{
+        color: rgba(255,255,255,0.8);
+        text-align: center;
+
+    }
+    .typewrite span{
+        color:rgba(255,255,250,0.8);
+        font-size: 15px;
+        margin: 25px;
+        text-align: center;
+    }
+    #banner-btn-div{
+        padding-left: 0;
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    .btn-lg{
+        font-size: 14px;
+    }
+    #banner-btn-div .btn-default{
+        border-width: thin;
+        border-color: rgba(255,255,255,1);
+        color: white;
+        background-color: rgba(245,0,87,0) !important;
+        font-size: small;
+    }
+    #banner-btn-div .btn-default:hover{
+        background-color: #1DA1F2 !important;
+        color: rgba(255,255,255,1);
+        border-color: rgba(255,255,255,1);
+    }
+    #banner-btn-div .btn-lg{
+        background-color: rgba(251,654,5,0);
+        margin-left: 1%;
+    }
+
+    #info-row{
+        padding-bottom: 126px;
+        margin-top: 20%;
+        text-align: center;
+    }
+    .fa-2x{
+        font-size: 20px;
+    }
+    #info-row a{
+        border-width: thin;
+        border-radius: 100%;
+        margin-left: 10px;
+        border-color: rgba(255,255,255,1);
+        color: white;
+        background-color: rgba(245,0,87,0) !important;
+    }
+    #info-row a:hover{
+        /*background-color: rgba(81,1,144,1) !important;*/
+        color: rgba(255,255,255,1);
+        border-color: rgba(255,255,255,1);
+        text-decoration: none;
+    }
+    #info-row .fa-facebook:hover {
+        color: #3b5998;
+    }
+    #info-row .fa-linkedin:hover{
+        color:#1DA1F2;
+    }
+    #info-row .fa-instagram:hover{
+        background: red; /* For browsers that do not support gradients */
+        background: -webkit-linear-gradient(left, #8a3ab9 , #4c68d7, #cd486b,#fbad50,#fccc63,#bc2a8d,#e95950); /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(right, #8a3ab9 , #4c68d7, #cd486b,#fbad50,#fccc63,#bc2a8d,#e95950); /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(right,#8a3ab9 , #4c68d7, #cd486b,#fbad50,#fccc63,#bc2a8d,#e95950); /* For Firefox 3.6 to 15 */
+        background: linear-gradient(to right,#8a3ab9 , #4c68d7, #cd486b,#fbad50,#fccc63,#bc2a8d,#e95950); /* Standard syntax */
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    #info-row .fa-github:hover{
+        color:rgba(81,1,144,1);
+        font-weight: bold;
+    }
+    button:focus,button:active {
+        outline: none !important;
+    }
+    /*------------------------------------scroll down -------------*/
+    #section07 div {
+        position: absolute;
+        top: 85%;
+        margin-left: 50%;
+        padding-top: 80px;
+    }
+    #section07 div span {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        width: 24px;
+        height: 24px;
+        margin-left: -12px;
+        border-left: 1px solid #fff;
+        border-bottom: 1px solid #fff;
+        -webkit-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+        -webkit-animation: sdb07 2s infinite;
+        animation: sdb07 2s infinite;
+        opacity: 0;
+        box-sizing: border-box;
+    }
+    #section07 div span:nth-of-type(1) {
+        -webkit-animation-delay: 0s;
+        animation-delay: 0s;
+    }
+    #section07 div span:nth-of-type(2) {
+        top: 16px;
+        -webkit-animation-delay: .15s;
+        animation-delay: .15s;
+    }
+    #section07 div span:nth-of-type(3) {
+        top: 32px;
+        -webkit-animation-delay: .3s;
+        animation-delay: .3s;
+    }
+    @-webkit-keyframes sdb07 {
+        0% {
+            opacity: 0;
+        }
+        50% {
+            opacity: 1;
+        }
+        100% {
+            opacity: 0;
+        }
+    }
+    @keyframes sdb07 {
+        0% {
+            opacity: 0;
+        }
+        50% {
+            opacity: 1;
+        }
+        100% {
+            opacity: 0;
+        }
+    }
+
+    /*-------- typewriting effect------------------*/
+    .typewrite span {
+        border-right: .05em solid;
+        animation: caret 1s steps(1) infinite;
+    }
+
+    @keyframes caret {
+        50% {
+            border-color: transparent;
+        }
+    }
+    #banner-btn-div{
+        margin-top: 50px;
+        margin-left: 5%;
+    }
+    /*-----------------------------------------------nav-------------------------------------------------------------*/
+
+    #nav-row{
+        /*to make the navbar just right under the header*/
+        margin-top: 2px;
+        margin-bottom: 0px;
+        /*background-color: rgba(1,87,155,1);*/
+        background-color: rgba(255,255,255,1) ;
+        width: auto;
+
+    }
+
+    .navbar-default button{
+        color: #222831;
+    }
+    .navbar-default,.navbar{
+        /*background-color: rgba(18,0,94,0);*/
+        background-color: rgba(255,255,255,1)!important;
+        border-color: rgba(250,250,250,0);
+        margin-bottom: 0px;
+        width: 100%;
+        border-bottom: #222831 solid thin;
+
+
+    }
+
+    .navbar-default .navbar-header .navbar-brand{
+        color:#1DA1F2;
+        margin-left: 3%;
+    }
+
+    .navbar-default .navbar-header >a {
+        color: rgba(34,40,49,1);
+        margin-bottom: 2px;
+        margin-top: 2px;
+        padding-left: 2%;
+
+    }
+    .navbar-default .navbar-header >a[class="active"]{
+        color:#1DA1F2 !important;
+
+    }
+    .navbar-header{
+        margin-left: 0px;
+    }
+
+    #main-nav{
+        margin-left: 0px;
+    }
+
+    .main-nav-list{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 10px;
+        margin-left: 0px;
+
+
+    }
+
+    .navbar-default .navbar-nav >li >a,.navbar-default .navbar-header >a {
+        color: rgba(34,40,49,0.85);
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+    .navbar-default .navbar-nav >li >a:hover,.navbar-default .navbar-header >a:hover {
+        color: #1DA1F2;
+
+    }
+
+
+
+    /*--------------------------------About------------------*/
+    #about-div{
+        /*background-color: rgba(121,85,72,0.3);*/
+        background-color: rgba(255,255,255,1);
+        color:  #222831;
+        padding-bottom: 50px;
+
+    }
+
+    #about-div-title h1{
+        font-family: 'Signika', sans-serif;
+        font-size: 40px;
+        letter-spacing: 0.3em;
+        text-align: center;
+
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+    #about-content-div{
+        margin-top: 20px;
+        margin-left: 0px;
+
+    }
+    #text-div h1{
+        letter-spacing: 0.3em;
+    }
+    #text-div p{
+        font-family: 'Signika', sans-serif;
+        font-weight: normal;
+        font-size: medium;
+        opacity: 0.7;
+        text-align: center;
+    }
+
+    #photo-div{
+        margin:0 auto;
+        width: 95%;
+        height: 300px;
+        margin-right: 5%;
+        border-radius: 0px;
+        background: url(../images/rsz_11.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    /*-----------------services1----------------*/
+    #services1-div{
+        background-color: #222831;
+    }
+    #services1-div-title h1{
+        font-family: 'Signika', sans-serif;
+        font-size: 30px;
+        letter-spacing: 0.3em;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    #services1-content{
+        margin-bottom: 50px;
+    }
+    #fix-position1{
+        float: none;
+        margin: 0 auto;
+    }
+    .fa-lightbulb-o,.fa-lock,.fa-wrench{
+        font-size: 100px;
+    }
+    #pic11-frame,#pic22-frame,#pic33-frame,#pic44-frame{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    #pic22-frame{
+        padding-top: 0px;
+    }
+    .fa-desktop{
+        font-size: 130px;
+    }
+    .fa-tablet{
+        font-size: 85px;
+    }
+    .fa-mobile{
+        font-size: 52px;
+    }
+    #pic11-frame h3{
+        margin-top: 50px;
+    }
+    #pic22-frame h3{
+    }
+    #pic33-frame h3{
+        margin-top: 50px;
+    }
+    #pic44-frame h3{
+        margin-top: 50px;
+    }
+    /*-----------------------------------------------return to top icon-------------------------------------------------*/
+    #return-to-top {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+
+        background-color: rgba(33,150,243,0.9);
+        width: 50px;
+        height: 50px;
+        display: block;
+        text-decoration: none;
+        -webkit-border-radius: 35px;
+        -moz-border-radius: 35px;
+        border-radius: 35px;
+        display: none;
+        -webkit-transition: all 0.3s linear;
+        -moz-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+    }
+    #return-to-top i {
+        color: #fff;
+        margin: 0;
+        position: relative;
+        left: 16px;
+        top: 13px;
+        font-size: 19px;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+    }
+    #return-to-top:hover {
+        background-color: rgba(33,150,243,1);
+    }
+    #return-to-top:hover i {
+        color: #fff;
+        top: 5px;
+    }
+    /*------------------skills------------*/
+    #skills-div{
+        /*background-color: rgba(81,1,144,0.4);*/
+        background-color: rgba(255,255,255,1);
+        color: #222831;
+        width: 100%;
+        padding-bottom: 50px;
+    }
+
+    #skills-div-title{
+        width: 100%;
+        margin-left: 5%;
+
+    }
+    #skills-div-title h1{
+        font-family: 'Signika', sans-serif;
+        font-size: 40px;
+        letter-spacing: 0.3em;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+    #skills-div .center-block{
+        float: none;
+        margin-left: 42%;
+    }
+    .progressbar{
+        display: block;
+    }
+    .circle .percent{
+        position: relative;
+        /*for tall looking motherfuckers phone*/
+        bottom: 12vh;
+        left:  -28% ;
+        font-size: 32px;
+        opacity: 0.9;
+        color: #1DA1F2;
+    }
+    .cirle-legend{
+        font-family: 'Signika', sans-serif;
+        font-size: 24px;
+    }
+    #legend1{
+        margin-left: 5%;
+        position: relative;
+        top:-10%;
+    }
+    #legend2{
+        margin-left: 7%;
+        position: relative;
+        top:-10%;
+    }
+    #legend3{
+        margin-left: 7%;
+        position: relative;
+        top:-10%;
+    }
+    #legend4{
+        margin-left: 13%;
+        position: relative;
+        top:-10%;
+    }
+
+    /*----------------------------------------- contact-----------------------------------------*/
+    #contact-div{
+        background-color: #222831;
+        padding-bottom: 50px;
+
+    }
+    #contact-div-title h1{
+        font-family: 'Signika', sans-serif;
+        font-size: 40px;
+        letter-spacing: 0.3em;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+
+    #contact-form input,#contact-form textarea {
+        background-color: #222831 !important;
+        color: rgba(255,255,255,0.8);
+        margin-top: 50px;
+    }
+    #contact-form input{
+        border-style: none;
+        border-bottom: solid thin rgba(255,255,255,0.8);
+    }
+    #contact-form button{
+        margin: 40px 0 20px 44%;
+    }
+    input:focus,input:active,textarea:active,textarea:focus{
+        outline:0px !important;
+        -webkit-appearance:none !important;
+        -webkit-box-shadow: none !important;
+        box-shadow: none !important;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0) !important;
+    }
+    #submit_btn span{
+        margin-right: 20px;
+        margin-left: 0px;
+
+    }
+
+    #contact-form {
+        -webkit-animation-duration: 4s;
+        animation-duration: 4s;
+    }
+
+    /*--------------footer-----------*/
+    footer {
+        color: #222831;
+        padding: 20px 0px;
+    }
+    footer h4{
+
+        text-align: center;
+    }
+
+
+
+
+}
+@media (min-width:992px) and (max-device-width: 1024px) {
+    header{
+        margin-bottom: 0px;
+        max-height: 100vh;
+        width: auto;
+        background: url(../images/rsz_mia-baker-322558.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    #banner-row{
+        /*background-image: url(../images/rsz_oskar-yildiz-110060.jpg);*/
+        margin-top: 0px;
+        margin-bottom: 30px;
+        width: auto;
+
+    }
+
+    .center-block{
+        float: none;
+    }
+    #header-background{
+        background-color: rgba(0,0,0,0.5);
+        /*to make the black background as tall as the header*/
+        height: 100%;
+    }
+    .typewriter{
+        padding-top: 10px;
+        margin: 0;
+        margin-top: 10%;
+        margin-left: 2%;
+    }
+    #banner-header{
+        margin-top: 0px;
+        margin-bottom: 20px;
+        margin-left: 0%;
+    }
+    #banner-header h1,#banner-header h2{
+
+        font-family: 'Signika', sans-serif;
+        font-weight: bold;
+        color: rgba(255,255,255,1);
+    }
+    #banner-header h1{
+        font-size: 35px;
+        letter-spacing: 0.3em;
+        margin-bottom: 10px;
+        /*color: rgba(255,152,0,1);*/
+    }
+    #banner-header h2{
+        letter-spacing: 0.1em;
+        font-size: 30px;
+        /*color: rgba(255,152,0,1);*/
+    }
+    .typewrite{
+        color: rgba(255,255,255,0.8);
+
+    }
+    .typewrite span{
+        color:rgba(255,255,250,0.8);
+        font-size: 15px;
+        margin: 0;
+    }
+    #banner-btn-div{
+        padding-left: 0;
+        padding-top: 20%;
+    }
+
+    .btn-lg{
+        font-size: 14px;
+    }
+    #banner-btn-div .btn-default{
+        border-width: thin;
+        border-color: rgba(255,255,255,1);
+        color: white;
+        background-color: rgba(245,0,87,0) !important;
+        font-size: small;
+    }
+    #banner-btn-div .btn-default:hover{
+        background-color: #1DA1F2 !important;
+        color: rgba(255,255,255,1);
+        border-color: rgba(255,255,255,1);
+    }
+    #banner-btn-div .btn-lg{
+        background-color: rgba(251,654,5,0);
+        margin-left: 1%;
+    }
+
+    #info-row{
+        padding-bottom: 126px;
+        margin-top: 10%;
+        text-align: center;
+    }
+    .fa-2x{
+        font-size: 20px;
+    }
+    #info-row a{
+        border-width: thin;
+        border-radius: 100%;
+        margin-left: 10px;
+        border-color: rgba(255,255,255,1);
+        color: white;
+        background-color: rgba(245,0,87,0) !important;
+    }
+    #info-row a:hover{
+        /*background-color: rgba(81,1,144,1) !important;*/
+        color: rgba(255,255,255,1);
+        border-color: rgba(255,255,255,1);
+        text-decoration: none;
+    }
+    #info-row .fa-facebook:hover {
+        color: #3b5998;
+    }
+    #info-row .fa-linkedin:hover{
+        color:#1DA1F2;
+    }
+    #info-row .fa-instagram:hover{
+        background: red; /* For browsers that do not support gradients */
+        background: -webkit-linear-gradient(left, #8a3ab9 , #4c68d7, #cd486b,#fbad50,#fccc63,#bc2a8d,#e95950); /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(right, #8a3ab9 , #4c68d7, #cd486b,#fbad50,#fccc63,#bc2a8d,#e95950); /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(right,#8a3ab9 , #4c68d7, #cd486b,#fbad50,#fccc63,#bc2a8d,#e95950); /* For Firefox 3.6 to 15 */
+        background: linear-gradient(to right,#8a3ab9 , #4c68d7, #cd486b,#fbad50,#fccc63,#bc2a8d,#e95950); /* Standard syntax */
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    #info-row .fa-github:hover{
+        color:rgba(81,1,144,1);
+        font-weight: bold;
+    }
+    button:focus,button:active {
+        outline: none !important;
+    }
+    /*------------------------------------scroll down -------------*/
+    #section07 div {
+        position: absolute;
+        top: 85%;
+        margin-left: 52%;
+        padding-top: 80px;
+    }
+    #section07 div span {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        width: 24px;
+        height: 24px;
+        margin-left: -12px;
+        border-left: 1px solid #fff;
+        border-bottom: 1px solid #fff;
+        -webkit-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+        -webkit-animation: sdb07 2s infinite;
+        animation: sdb07 2s infinite;
+        opacity: 0;
+        box-sizing: border-box;
+    }
+    #section07 div span:nth-of-type(1) {
+        -webkit-animation-delay: 0s;
+        animation-delay: 0s;
+    }
+    #section07 div span:nth-of-type(2) {
+        top: 16px;
+        -webkit-animation-delay: .15s;
+        animation-delay: .15s;
+    }
+    #section07 div span:nth-of-type(3) {
+        top: 32px;
+        -webkit-animation-delay: .3s;
+        animation-delay: .3s;
+    }
+    @-webkit-keyframes sdb07 {
+        0% {
+            opacity: 0;
+        }
+        50% {
+            opacity: 1;
+        }
+        100% {
+            opacity: 0;
+        }
+    }
+    @keyframes sdb07 {
+        0% {
+            opacity: 0;
+        }
+        50% {
+            opacity: 1;
+        }
+        100% {
+            opacity: 0;
+        }
+    }
+
+    /*-------- typewriting effect------------------*/
+    .typewrite span {
+        border-right: .05em solid;
+        animation: caret 1s steps(1) infinite;
+    }
+
+    @keyframes caret {
+        50% {
+            border-color: transparent;
+        }
+    }
+    #banner-btn-div{
+        margin-top: 50px;
+        margin-left: 5%;
+    }
+    /*-----------------------------------------------nav-------------------------------------------------------------*/
+
+    #nav-row{
+        /*to make the navbar just right under the header*/
+        margin-top: 2px;
+        margin-bottom: 0px;
+        /*background-color: rgba(1,87,155,1);*/
+        background-color: rgba(255,255,255,1) ;
+        width: auto;
+
+    }
+
+    .navbar-default button{
+        color: #222831;
+    }
+    .navbar-default,.navbar{
+        /*background-color: rgba(18,0,94,0);*/
+        background-color: rgba(255,255,255,1)!important;
+        border-color: rgba(250,250,250,0);
+        margin-bottom: 0px;
+        width: 100%;
+        border-bottom: #222831 solid thin;
+
+
+    }
+    .navbar-header{
+        margin-left: 0px;
+    }
+
+    .navbar-default .navbar-header .navbar-brand{
+        color:#1DA1F2;
+        margin-left: 3%;
+    }
+
+    .navbar-default .navbar-header >a {
+        color: rgba(34,40,49,1);
+        margin-bottom: 2px;
+        margin-top: 2px;
+        padding-left: 2%;
+
+    }
+    .navbar-default .navbar-header >a[class="active"]{
+        color:#1DA1F2 !important;
+
+    }
+    .navbar-header{
+        margin-left: 0px;
+    }
+
+    #main-nav{
+        margin-left: 0px;
+    }
+
+    .main-nav-list{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 10px;
+        margin-left: 0px;
+
+
+    }
+
+    .navbar-default .navbar-nav >li >a,.navbar-default .navbar-header >a {
+        color: rgba(34,40,49,0.85);
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+    .navbar-default .navbar-nav >li >a:hover,.navbar-default .navbar-header >a:hover {
+        color: #1DA1F2;
+
+    }
+
+
+
+    /*--------------------------------About------------------*/
+    #about-div{
+        /*background-color: rgba(121,85,72,0.3);*/
+        background-color: rgba(255,255,255,1);
+        color:  #222831;
+        padding-bottom: 50px;
+
+    }
+
+    #about-div-title h1{
+        font-family: 'Signika', sans-serif;
+        font-size: 40px;
+        letter-spacing: 0.3em;
+        text-align: center;
+
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+    #about-content-div{
+        margin-top: 20px;
+        margin-left: 0px;
+
+    }
+    #text-div h1{
+        letter-spacing: 0.3em;
+    }
+    #text-div p{
+        font-family: 'Signika', sans-serif;
+        font-weight: normal;
+        font-size: medium;
+        opacity: 0.7;
+        text-align: center;
+    }
+
+    #photo-div{
+        margin:0 auto;
+        height: 300px;
+        margin-right: 5%;
+        border-radius: 0px;
+        background: url(../images/rsz_11.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    /*-----------------services1----------------*/
+    #services1-div{
+        background-color: #222831;
+    }
+    #services1-div-title h1{
+        font-family: 'Signika', sans-serif;
+        font-size: 30px;
+        letter-spacing: 0.3em;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    #services1-content{
+        margin-bottom: 50px;
+    }
+    #fix-position1{
+        float: none;
+        margin: 0 auto;
+    }
+    .fa-lightbulb-o,.fa-lock,.fa-wrench{
+        font-size: 100px;
+    }
+    #pic11-frame,#pic22-frame,#pic33-frame,#pic44-frame{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    #pic22-frame{
+        padding-top: 0px;
+    }
+    .fa-desktop{
+        font-size: 130px;
+    }
+    .fa-tablet{
+        font-size: 85px;
+    }
+    .fa-mobile{
+        font-size: 52px;
+    }
+    #pic11-frame h3{
+        margin-top: 50px;
+    }
+    #pic22-frame h3{
+    }
+    #pic33-frame h3{
+        margin-top: 50px;
+    }
+    #pic44-frame h3{
+        margin-top: 50px;
+    }
+    /*-----------------------------------------------return to top icon-------------------------------------------------*/
+    #return-to-top {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+
+        background-color: rgba(33,150,243,0.9);
+        width: 50px;
+        height: 50px;
+        display: block;
+        text-decoration: none;
+        -webkit-border-radius: 35px;
+        -moz-border-radius: 35px;
+        border-radius: 35px;
+        display: none;
+        -webkit-transition: all 0.3s linear;
+        -moz-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+    }
+    #return-to-top i {
+        color: #fff;
+        margin: 0;
+        position: relative;
+        left: 16px;
+        top: 13px;
+        font-size: 19px;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+    }
+    #return-to-top:hover {
+        background-color: rgba(33,150,243,1);
+    }
+    #return-to-top:hover i {
+        color: #fff;
+        top: 5px;
+    }
+    /*------------------skills------------*/
+    #skills-div{
+        /*background-color: rgba(81,1,144,0.4);*/
+        background-color: rgba(255,255,255,1);
+        color: #222831;
+        width: 100%;
+        padding-bottom: 50px;
+    }
+
+    #skills-div-title{
+        width: 100%;
+        margin-left: 5%;
+
+    }
+    #skills-div-title h1{
+        font-family: 'Signika', sans-serif;
+        font-size: 40px;
+        letter-spacing: 0.3em;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 70px;
+    }
+    #skills-div .center-block{
+        float: none;
+        margin-left: 28%;
+    }
+    .progressbar{
+        display: inline-block;
+        margin-bottom: 5%;
+    }
+    .circle .percent{
+        position: relative;
+        /*for tall looking motherfuckers phone*/
+        bottom: 12vh;
+        left:  -50% ;
+        font-size: 32px;
+        opacity: 0.9;
+        color: #1DA1F2;
+    }
+    .cirle-legend{
+        font-family: 'Signika', sans-serif;
+        font-size: 24px;
+    }
+    #legend1{
+        margin-left: 5%;
+        position: relative;
+        top:-10%;
+    }
+    #legend2{
+        margin-left: 7%;
+        position: relative;
+        top:-10%;
+    }
+    #legend3{
+        margin-left: 12%;
+        position: relative;
+        top:-10%;
+    }
+    #legend4{
+        margin-left: 25%;
+        position: relative;
+        top:-10%;
+    }
+
+    /*----------------------------------------- contact-----------------------------------------*/
+    #contact-div{
+        background-color: #222831;
+        padding-bottom: 50px;
+
+    }
+    #contact-div-title h1{
+        font-family: 'Signika', sans-serif;
+        font-size: 40px;
+        letter-spacing: 0.3em;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+
+    #contact-form input,#contact-form textarea {
+        background-color: #222831 !important;
+        color: rgba(255,255,255,0.8);
+        margin-top: 50px;
+    }
+    #contact-form input{
+        border-style: none;
+        border-bottom: solid thin rgba(255,255,255,0.8);
+    }
+    #contact-form button{
+        margin: 40px 0 20px 44%;
+    }
+    input:focus,input:active,textarea:active,textarea:focus{
+        outline:0px !important;
+        -webkit-appearance:none !important;
+        -webkit-box-shadow: none !important;
+        box-shadow: none !important;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0) !important;
+    }
+    #submit_btn span{
+        margin-right: 20px;
+        margin-left: 0px;
+
+    }
+
+    #contact-form {
+        -webkit-animation-duration: 4s;
+        animation-duration: 4s;
+    }
+
+    /*--------------footer-----------*/
+    footer {
+        color: #222831;
+        padding: 20px 0px;
+    }
+    footer h4{
+
+        text-align: center;
+    }
+
+
+
+
+}
+
 
 
 

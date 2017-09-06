@@ -14,7 +14,7 @@
 
 
 
-            <div id="photo-div" class="col-md-5 col-lg-5 col-lg-offset-1 col-md-offset-1
+            <div id="photo-div" class="col-md-6 col-lg-5 col-lg-offset-1 col-md-offset-1
             container-fluid col-xs-12">
 
 

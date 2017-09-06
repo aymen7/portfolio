@@ -447,7 +447,7 @@ $(window).scroll(function () {
     var h = $(window).height();
     $('header').css('height', h);
 
-    if(w>=320 && w<1199)
+    if(w>=320 && w<=991)
     {
         $('header').css('width', w);
         $('header').css('margin-left', 0.1);

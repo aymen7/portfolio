@@ -2,7 +2,7 @@
     <div class="row" id="contact-div-title">
         <h1><b>Contact Me</b></h1>
     </div><!-- end of the title div-->
-    <div id="contact-form-wraper" class="col-lg-8 col-md-8 col-lg-offset-2 col-md-offset-1">
+    <div id="contact-form-wraper" class="col-lg-8 col-md-8 col-lg-offset-2 col-md-offset-2">
         <form id="contact-form" class="animated fadeIn"  method="post">
                 <div class="form-group">
                 <input type="text" class="form-control" id="name_input"  name="name_input" placeholder="Your Name" required
