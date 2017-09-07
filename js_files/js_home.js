@@ -459,11 +459,13 @@ $(window).scroll(function () {
     }
 
 
-    if(w>=1281)
+    if(w>=1280)
     {
-        console.log("1281");
+        console.log("1280");
 
         $('header').css('width', w);
+        $('#contact-div').css('width', w);
+        $('#nav-row').css('width', w);
         $('header').css('margin-left', 0.1);
         $('#header-background').css('width', w);
         $('#banner-row').css('width', w);
@@ -472,7 +474,6 @@ $(window).scroll(function () {
         $('.navbar').css('width', w);
         $('#skills-div').css('width', w);
     }
-
 
 
 
